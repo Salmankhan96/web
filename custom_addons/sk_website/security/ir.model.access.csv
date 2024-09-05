@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_website_slider_public,access_website_slider,model_website_slider,base.group_public,1,0,0,0
+access_website_slider_portal,access_website_slider,model_website_slider,base.group_portal,1,0,0,0
+access_website_slider_employee,access_website_slider,model_website_slider,base.group_user,1,0,0,0
+access_website_slider_designer,access_website_slider,model_website_slider,website.group_website_designer,1,1,1,1
+access_website_services_public,access_website_services,model_website_services,base.group_public,1,0,0,0
+access_website_services_portal,access_website_services,model_website_services,base.group_portal,1,0,0,0
+access_website_services_employee,access_website_services,model_website_services,base.group_user,1,0,0,0
+access_website_services_designer,access_website_services,model_website_services,website.group_website_designer,1,1,1,1
+access_demo_request_public,access_demo_request,model_demo_request,base.group_public,1,0,0,0
+access_demo_request_portal,access_demo_request,model_demo_request,base.group_portal,1,0,0,0
+access_demo_request_employee,access_demo_request,model_demo_request,base.group_user,1,0,0,0
+access_demo_request_designer,access_demo_request,model_demo_request,website.group_website_designer,1,1,1,1

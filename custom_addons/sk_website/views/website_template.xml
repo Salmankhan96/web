@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--    salmankhan added-->
+     <template id="custom_homepage" inherit_id="website.homepage">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <!-- Your custom HTML content here -->
+            <section class="s_carousel_wrapper" data-vxml="001">
+        <t t-set="uniq" t-value="datetime.datetime.now().microsecond"/>
+        <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide" data-bs-interval="3000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="0" class="active"/>
+                <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="1"/>
+                <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="2"/>
+            </ol>
+            <!-- Content -->
+            <div class="carousel-inner">
+                <!-- #01 -->
+                <div class="carousel-item active oe_img_bg o_bg_img_center pt152 pb152" style="background-image: url('/web/image/website.s_carousel_default_image_1');" data-name="Slide">
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-12">
+                                <h3 class="display-3-fs" style="text-align:center;color:white;">We Take Your Business To An Odoo Level</h3>
+                                <p style="text-align:center;">
+                                    <a href="/contactus" class="btn btn-primary">Contact us</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- #02 -->
+                <div class="carousel-item oe_img_bg o_bg_img_center pt96 pb96" style="background-image: url('/web/image/website.s_carousel_default_image_2');" data-name="Slide">
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-8 offset-lg-2 bg-black-50 text-center pt48 pb40">
+                                <h2 class="display-3-fs">Clever Slogan</h2>
+                                <div class="s_hr pt8 pb24" data-snippet="s_hr" data-name="Separator">
+                                    <hr class="w-25 mx-auto" style="border-top-width: 1px; border-top-style: solid;"/>
+                                </div>
+                                <p class="lead">Storytelling is powerful.<br/> It draws readers in and engages them.</p>
+                                <p><a href="/" class="btn btn-primary">Start your journey</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- #03 -->
+                <div class="carousel-item oe_img_bg o_bg_img_center pt128 pb128" style="background-image: url('/web/image/website.s_carousel_default_image_3');" data-name="Slide">
+                    <div class="container oe_unremovable">
+                        <div class="row">
+                            <div class="carousel-content col-lg-12 offset-lg-12">
+                                <h3><font class="display-3-fs" style="text-align:center;color:white;">Let Us Be Your Helping Hand While You Stepping Into The Odoo World</font></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="carousel-control-prev o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous">
+                <span class="carousel-control-prev-icon"/>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next o_not_editable" contenteditable="false" t-attf-href="#myCarousel{{uniq}}" data-bs-slide="next" role="img" aria-label="Next" title="Next">
+                <span class="carousel-control-next-icon"/>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+<!--            carousel end-->
+<div class="pt32">
+                    <section class="as-snippet-title-02 text-center pt32 pb32">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 ">
+                                    <h1 class="m-0">Odoo Development Company</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="s_comparisons as-about-snippet-02" data-name="Comparisons">
+                        <div class="container">
+                            <div class="row align-items-center s_comparisons" data-name="Comparisons">
+                                <div class="col-lg-6 pt16 pb16">
+                                    <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                        <div class="d-flex">
+                                            <i class="bg-primary-light fa fa-first-order rounded-circle me-3 text-dark"></i>
+                                            <div class="col ms-3">
+                                                <p class="o_default_snippet_text mb-0">
+                                                    One of the Best Odoo Company in India, Theonik is renowned for providing exceptional Odoo services.It is a business application services company that has been operating since 2024.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 pt16 pb16">
+                                    <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                        <div class="d-flex">
+                                            <i class="bg-primary-light fa fa-first-order rounded-circle me-3 text-dark"></i>
+                                            <div class="col ms-3">
+                                                <p class="o_default_snippet_text mb-0">
+                                                    We incorporate the world's best Open-ERP technologies that highlight your organisation in the appropriate industries as a renowned  in India.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 pt16 pb16">
+                                    <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                        <div class="d-flex">
+                                            <i class="bg-primary-light fa fa-first-order rounded-circle me-3 text-dark"></i>
+                                            <div class="col ms-3">
+                                                <p class="o_default_snippet_text mb-0">
+                                                    <span>With a proven track record, they excel in Odoo Implementation, Odoo Maintenance, Odoo Offshore Development, Migration, Consultancy, Training, Support and its installation empowering businesses</span>
+                                                    <span class="toggle-text">to optimize their operations.Our services are primarily focused on software development, IT consulting, and offering offshore outsourcing solutions to businesses all over the world.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 pt16 pb16">
+                                    <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                        <div class="d-flex">
+                                            <i class="bg-primary-light fa fa-first-order rounded-circle me-3 text-dark"></i>
+                                            <div class="col ms-3">
+                                                <p class="o_default_snippet_text mb-0">
+                                                    Their expert teams have main focus on integration, comprehensive support and transparency, along with unmatched client satisfaction, making BrowseInfo a trustedOdoo company partner for businesses seeking the best Odoo services in India.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+<!--            card end-->
+            <br></br>
+<!--            trusted partner-->
+            <h2 style="text-align:center;">Our Trusted Partners</h2>
+            <br></br>
+            <div class="row justify-content-center">
+                      <!-- only loop the columns -->
+                <t t-foreach="slider" t-as="sl">
+<!--                      <div class="col-sm-3"> &lt;!&ndash; not "col-sm-3" &ndash;&gt;-->
+                      <div class="col-md-2 col-6 pt16 pb16"> <!-- not "col-sm-3" -->
+<!--                        <div class="card" style="width:16rem;height:10rem;">-->
+                        <div class="card" style="width:12rem;height:8rem;">
+                          <div class="card-body">
+                              <div class="carousel-img"  t-field="sl.partner_logo" t-options="{'widget': 'image', 'class': 'img img-responsive',}"/>
+                          </div>
+                        </div>
+                      </div>
+                </t>
+            </div>
+            <br></br>
+<!--            trusted partner end-->
+            <section class="as-snippet-title-02 text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 o_animate o_anim_rotate_in o_anim_from_bottom_left o_animate_both_scroll client_feedback o_visible o_animated" style="animation-name: o_anim_rotate_in_down_left; visibility: visible; animation-play-state: running;">
+                                <h2 class="m-0">What can we help you with?</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <br></br>
+            <div class="row justify-content-center">
+                    <section class="s_comparisons as-about-snippet-01 o_colored_level pb32" data-name="Comparisons">
+                    <div class="container">
+                        <div class="row">
+                            <t t-foreach="services" t-as="ser">
+                            <div class="col-lg-3 col-md-6 pt16 pb16 o_colored_level trending_content o_animate o_anim_flip_in_x o_animate_both_scroll o_visible o_animated" style="animation-name: o_anim_flip_in_x; animation-play-state: running; visibility: visible;">
+                                <div class="card light-border shadow-sm p-3 text-center hover-top">
+                                    <a t-attf-href="{{ser.url}}">
+                                    <div class="m-auto"  t-field="ser.service_logo" t-options="{'widget': 'image', 'class': 'img img-responsive',}"/>
+                                    <h5 class="o_default_snippet_text mt-3"><t t-esc="ser.name"/></h5>
+                                    </a>
+                                </div>
+                            </div>
+                            </t>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <br></br>
+
+            <section class="as-snippet-title-02 text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 ">
+                                <h2 class="m-0">What keeps us moving?</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            <section class="as-about-snippet-09 s_comparisons pt40 pb40" data-name="Comparisons">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4 pb16 pt16 pr-xl-5">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-12">
+                                            <div class="card border-radius-12 light-border shadow-sm p-3 text-center hover-top card-content3 o_animate o_anim_slide_in o_anim_from_left o_animate_both_scroll o_visible o_animated" style="animation-name: o_anim_slide_in_left; animation-play-state: running; visibility: visible;">
+                                                <div class="m-auto" style="background-image: url('//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/our-focus.webp');height:80px;width:80px;background-repeat:no-repeat;"></div>
+                                                <h5 class="o_default_snippet_text mt-3">Our Focus</h5>
+                                                <p class="o_default_snippet_text">Our prime focus has always been to constantly put efforts and drive the growth of the client’s business.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 pb16 pt16">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-12">
+                                            <div class="card border-radius-12 light-border shadow-sm p-3 text-center mb-5 hover-top card-content1 o_animate o_anim_slide_in o_anim_from_top o_animate_both_scroll o_visible o_animated" style="animation-name: o_anim_slide_in_down; animation-play-state: running; visibility: visible;">
+                                                <div class="m-auto" style="background-image: url('//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/Our-Transparency.webp');height:80px;width:80px;background-repeat:no-repeat;"></div>
+                                                <h5 class="o_default_snippet_text mt-3">Our Transparency</h5>
+                                                <p class="o_default_snippet_text">We believe in maintaining complete transparency while working on any business decision making process.</p>
+                                            </div>
+                                            <div class="card border-radius-12 light-border shadow-sm p-3 text-center hover-top card-content2 o_animate o_anim_slide_in o_animate_both_scroll o_anim_from_bottom" style="animation-name: o_anim_slide_in_up; visibility: visible; animation-play-state: paused;">
+                                                <div class="m-auto" style="background-image: url('//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/fairness.webp');height:80px;width:80px;background-repeat:no-repeat;"></div>
+                                                <h5 class="o_default_snippet_text mt-3">Our Fairness</h5>
+                                                <p class="o_default_snippet_text">Every project is equally important for us and we give our best, whether it is big or small client requirement.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 pb16 pt16">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-12">
+                                            <div class="card border-radius-12 light-border shadow-sm p-3 text-center hover-top card-content4 o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll o_visible o_animated" style="animation-name: o_anim_slide_in_right; animation-play-state: running; visibility: visible;">
+                                                <div class="m-auto" style="background-image: url('//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/accountability.webp');height:80px;width:80px;background-repeat:no-repeat;"></div>
+                                                <h5 class="o_default_snippet_text mt-3">Our Accountability</h5>
+                                                <p class="o_default_snippet_text">We solve your business requirements as if it is our own which creates a great sense of accountability.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+
+             <section class="as-snippet-title-02 text-center pt64">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 ">
+                                <h2 class="m-0">Why Is Odoo Trending?</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            <section class="s_comparisons as-about-snippet-01 o_colored_level pb32" data-name="Comparisons">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 pt16 pb16 o_colored_level trending_content o_animate o_anim_flip_in_x o_animate_both_scroll o_visible o_animated" style="animation-name: o_anim_flip_in_x; animation-play-state: running; visibility: visible;">
+                                <div class="card light-border shadow-sm p-3 text-center hover-top">
+                                    <div class="m-auto" style="background-image: url('//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/cost-effective.webp');height:80px;width:80px;background-repeat:no-repeat;"></div>
+                                    <h5 class="o_default_snippet_text mt-3">Cost Effective</h5>
+                                    <p class="o_default_snippet_text">Open ERP is best known for its low installation. There is also absolutely no license fee, which is the best part of Odoo implementation.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 pt16 pb16 o_colored_level trending_content o_animate o_anim_flip_in_x o_animate_both_scroll o_visible o_animated" style="animation-name: o_anim_flip_in_x; animation-play-state: running; visibility: visible;">
+                                <div class="card light-border shadow-sm p-3 text-center hover-top">
+                                    <div class="m-auto" style="background-image: url('//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/open-source.webp');height:80px;width:80px;background-repeat:no-repeat;"></div>
+                                    <h5 class="o_default_snippet_text mt-3">Open Source</h5>
+                                    <p class="o_default_snippet_text">As we all know, in a closed system the module never grow up. Odoo/OpenERP being open-sourced keeps on modifying and upgrading.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 pt16 pb16 o_colored_level trending_content o_animate o_anim_flip_in_x o_animate_both_scroll o_visible o_animated" style="animation-name: o_anim_flip_in_x; animation-play-state: running; visibility: visible;">
+                                <div class="card light-border shadow-sm p-3 text-center hover-top">
+                                    <div class="m-auto" style="background-image: url('//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/modular-approch.webp');height:80px;width:80px;background-repeat:no-repeat;"></div>
+                                    <h5 class="o_default_snippet_text mt-3">Modular Approach</h5>
+                                    <p class="o_default_snippet_text">Modular approach in Odoo helps to concentrate and implement critical processes first and the others can be subsequently taken up.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 pt16 pb16 o_colored_level trending_content o_animate o_anim_flip_in_x o_animate_both_scroll o_visible o_animated" style="animation-name: o_anim_flip_in_x; animation-play-state: running; visibility: visible;">
+                                <div class="card light-border shadow-sm p-3 text-center hover-top">
+                                    <div class="m-auto" style="background-image: url('//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/Comprehencive.webp');height:80px;width:80px;background-repeat:no-repeat;"></div>
+                                    <h5 class="o_default_snippet_text mt-3">Comprehensive</h5>
+                                    <p class="o_default_snippet_text">There are a wide range of modules to select from. We can help you analyse which module suits your business needs or get it customized.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        </xpath>
+    </template>
+<!--    salmankhan end-->
+     <template id="odoo_implementation" name="Odoo Implementation">
+        <t t-call="website.layout">
+            <section class="pt32 pb32 o_cc o_cc3" style="background-color:black;">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-6 text-center">
+                            <h2  class="mb-4" >ODOO ERP IMPLEMENTATION</h2>
+                        </div>
+                    </div>
+            </div>
+            </section>
+            <section class="as-snippet-title-01 pt32 text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class=" col-lg-12 m-auto pb32">
+                            <p class="lead">Theonik offers comprehensive Odoo open ERP implementation services for various business. Our services include (but not limited to) information gathering, customization, development, data migration, data conversion training and post-deployment support.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb32">
+                <div class="container">
+                    <h3 class="text-center">ODOO IMPLEMENTATION</h3>
+                    <div class="s_hr text-start pt8" data-snippet="s_hr" data-name="Separator">
+                        <hr class="mx-auto w-50px" style="border-top-style: solid; border-top-width: 1px !important; border-top-color: rgb(0, 0, 0) !important;"/>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">Odoo is one of the growing developing enterprise management solution available in the IT industry. More than 2 million organisations use Odoo implementation services worldwide because it is available as an open source platform with incredibly flexible modules that can be tailored to any kind of business.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">There are various modules available in the Odoo apps such as billing, accounting, manufacturing, purchasing, warehouse management, project management, finance, accounting, CRM, POS, E-commerce CMS and over 100 others that support various business functions across the enterprise.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">Potential benefits for all types of businesses are enormous when working with Odoo implementation partners. If you're concerned that your existing enterprise software is costing you more money due to expensive licences, poor support, and complicated features, an open-source ODOO ERP can address all of the issues. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">We offer our administrations as a consultancy when you require our master investigation on client relationship administration and endeavor asset arranging systems.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="s_comparisons as-about-snippet-02 o_colored_level" style="background-image: none;">
+                <div class="container">
+                    <div class="row align-items-center s_comparisons" data-name="Comparisons">
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-first-order rounded-circle me-3 text-dark"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Moving toward the Problem At Hand</h5>
+                                        <p class="o_default_snippet_text mb-0">
+                                            Clearly understanding the business necessities and future strategy is the most favored approach to get the best outcomes.  We achieve by doing the assessment of current pinpoints and provide the correct solution for the better usefulness and profitability.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16 o_colored_level">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-clock-o rounded-circle me-3 text-dark" data-bs-original-title="" title="" aria-describedby="tooltip6127"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Develop the solution within the time-frame</h5>
+                                        <p class="o_default_snippet_text mb-0">
+                                            We value the significance of time for any business. Our hardworking attitudes manage the execution procedure, and it experiences a progression of ventures to guide you to find the quality control element for your business.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-search me-3 rounded-circle text-dark"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Prerequisite Research</h5>
+                                        <p class="o_default_snippet_text mb-0">
+                                            The comprehensive previous research is the key to a successful execution. In this procedure, we examine the workflow and other crucial criteria based on the organisational activities, develop details, and conduct quality control analysis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-check me-3 rounded-circle text-dark"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Evaluation</h5>
+                                        <p class="o_default_snippet_text mb-0">
+                                            After conducting thorough prerequisite research, the subsequent step is to precisely identify the unique metrics and organisational characteristics. An Odoo ERP consultants company in India can assist in helping the important players understand the main risks associated with using ERP.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-tasks me-3 rounded-circle text-dark"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Task Planning</h5>
+                                        <p class="o_default_snippet_text mb-0">
+                                            In the starting of the project planning stage, we characterize the task exercises and final products that will be performed and depict how the activities will be refined.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-envelope me-3 rounded-circle text-dark"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Business Modeling</h5>
+                                        <p class="o_default_snippet_text mb-0">
+                                            We study the present business model plan of action and customize the framework to work as per your plan of action and as indicated by best business hones for the procedures.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-angellist fa-rocket me-3 rounded-circle text-dark"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Solution Process</h5>
+                                        <p class="o_default_snippet_text mb-0">
+                                            With appropriate project plan and workflow, we always endeavor to make everyday activities a breeze to accomplish more noteworthy profitability and work fulfillment.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16 o_colored_level">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-superpowers me-3 rounded-circle text-dark" data-bs-original-title="" title="" aria-describedby="tooltip640536"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Getting Odoo ERP up and running</h5>
+                                        <p class="o_default_snippet_text mb-0">
+                                            After completion of all the crucial advances, we start developing the Odoo ERP implementation and make it a success for you.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-database me-3 rounded-circle text-dark"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Data Transfer</h5>
+                                        <p class="o_default_snippet_text mb-0">
+                                            With all the configuration and ERP implementation done, we start with the Data conversion process from old framework to the new framework. The information transfer is done in an orderly way with the goal that no information is lost or copied.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="card border-radius-12 light-border shadow-sm p-4 hover-top">
+                                <div class="d-flex">
+                                    <i class="bg-primary-light fa fa-connectdevelop me-3 rounded-circle text-dark"></i>
+                                    <div class="col ms-3">
+                                        <h5 class="o_default_snippet_text">Training</h5>
+                                        <p class="wwo_p">
+											<span>
+												Training is one of the important amongst the most key strides to totally use the entire ERP system. A very much composed training plan makes it simple for hierarchical clients to adjust the change and understand the whole ERP inside out.
+											</span>
+
+										</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="as-snippet-title-01 text-center o_colored_level" style="background-image: none;">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 m-auto pt32 pb32 o_colored_level">
+                            <h3>WHY CHOOSE THEONIK FOR ODOO ERP IMPLEMENTATION?</h3>
+                            <div class="s_hr text-start pt8 pb16" data-snippet="s_hr" data-name="Separator">
+                                <hr class="mx-auto w-50px" style="border-top-style: solid; border-top-width: 2px !important; border-top-color: rgb(0, 0, 0) !important;"/>
+                            </div>
+                            <p class="lead">Odoo ERP Implementation is the most vital part of any business change process, a correct execution spares time and cash as well as can give an immense lift to the development of an association Even the Odoo implementation cost is quite economical.</p>
+                            <p class="lead">At <a href="/" data-bs-original-title="" title="">Theonik</a>, we offer end-to-end Odoo ERP execution and works deliberately to get the best outcome out of the ERP usage.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_faq_collapse pb32">
+                <h4 class="main_heading bi_title bi_line pt24 pb24 text-center">
+                    FAQ's
+                </h4>
+                <div class="container">
+                    <div id="myCollapse" class="accordion" role="tablist">
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="true" class="card-header text-black lead" data-bs-target="#myCollapseTab930169_1">Why do you need an Odoo Implementation Partner?</a>
+                            <div class="collapse show" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab930169_1">
+                                <div class="card-body">
+                                    <p class="card-text">An Odoo Implementation Partner brings crucial expertise to ensure a successful deployment. We understand Odoo's intricacies and best practices, tailoring the software to fit your unique business needs. Our experience minimizes errors, accelerates the implementation process, and maximizes the software's benefits.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab930169_2">How Long Does It Take To Go Live With Odoo?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab930169_2">
+                                <div class="card-body">
+                                    <p class="card-text">The timeline to go live with Odoo varies based on project complexity and customization. Smaller projects might take a few weeks, while larger implementations could span several months. Accurate scoping, thorough planning, and efficient execution by experts like us can help ensure a smooth and timely go-live process.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </t>
+     </template>
+     <template id="odoo_integration" name="Odoo Integration">
+        <t t-call="website.layout">
+            <section class="pt32 pb32 o_cc o_cc3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5 col-md-6 text-center">
+                            <h2 class="mb-4">ODOO INTEGRATION</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="as-snippet-title-01 text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class=" col-lg-8 m-auto pt32 pb32">
+                            <h3>Looking Forward to collaborating with us?</h3>
+                            <p class="lead">Don’t have technical knowledge? Not a problem. We believe Odoo integration should be easily adapted to meet changing needs, and our team provides expert consultation to ensure you are getting the most from our Odoo ERP technology services.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pb32">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-bullseye bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p>Odoo is an open source ERP which contains different modules to deal with the diverse territories of an organization.Integrating new third applications isn't just a pattern, however, a need that a business can't disregard. With <a href="/odoo-development/">Odoo development</a>, the necessity of consistent reconciliation with the Odoo core is required.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-bullseye bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p>We at <a href="https://www.theonik.in/">Theonik</a> can expand the effectiveness by integration of Open ERP with the third-party applications. To perform the complete, odoo integration, we utilize the rich API library and the web administrations accessible in Odoo. Odoo/open ERP integration can offer your business the way to modernize, combine, and facilitate operations in your enterprise.Our team has executed and integrated Odoo with many applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div>
+				<section class="container bi_content text-center">
+					<h3 class="main_heading bi_title bi_line">
+						Theonik- Known for Our Technology. Driven by Our People.
+					</h3>
+					<h3 class="main_heading bi_title bi_line">
+						Get Third Party Integration Services with Odoo
+					</h3>
+					<p class="bi_sub_title mt4 mb32">
+						Our team of developers offers latest technology upgrades with the world-class software solutions.
+					</p>
+				</section>
+			</div>
+
+            <section class="pb32">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-angellist bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">Our logic speaks to confidence in meeting individuals where they are; taking care of the issues they have, and giving them the solutions to accomplish their objectives and grow their business. We are committed to enabling you to integrate your information from different applications into a solitary unit with the goal that you can back out the complexities of keeping up two distinctive applications. It encourages you to determine the most extreme advantages and profits.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-angellist bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">With the in-depth understanding and ability of our customers, we give OpenERP/Odoo integration and give propelled innovation tools and assets so our customers can incorporate their frameworks with the quality precision and unwavering quality. Once the Odoo integration procedure is done, one can without much of a stretch exchange his/her information to and forward. To give third-party applications a benefit in an ideal way, we initially recognize target objects and approve every one of the streams lastly test everything for productivity and bug fixings.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-angellist bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">Our third-party Odoo integration services include a complete understanding of your business prerequisites and encourage you with an unmatched mix of solutions for the clear path; for example, order processing, lead management, sales promotions, and many more.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-angellist bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p>
+										Our Odoo Integration services include: (but not limited to):
+									</p>
+									<ul style="font-size: 18px;">
+										<li>
+											Sales
+										</li>
+										<li>
+											Inventory
+										</li>
+										<li>
+											Powerful API
+										</li>
+										<li>
+											Google Docs
+										</li>
+										<li>
+											Marketing Apps
+										</li>
+										<li>
+											E-commerce applications
+										</li>
+									</ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pb32 as-about-snippet-22">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex mb-4 align-items-baseline">
+                                <i class="fa fa-1x text-dark fa-check-circle fa-lg"></i>
+                                <div class="col ms-2">
+                                    <span>You can appreciate advantages, for example, streamlined request history and viable correspondence with your customers. Besides, you can also appreciate lessened operational expenses and continuous information access among others.</span>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-4 align-items-baseline">
+                                <i class="fa fa-1x text-dark fa-check-circle fa-lg"></i>
+                                <div class="col ms-2">
+                                    <span>We additionally provide <a href="/odoo-training">Odoo training</a> for end clients and work on pre-sales exercises as well. We have a devoted team to send and screen servers remotely and on location.</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-baseline">
+                                <i class="fa fa-1x text-dark fa-check-circle fa-lg"></i>
+                                <div class="col ms-2">
+                                    <span>Theonik additionally gives practical/technical Odoo ERP training to corporates who as of now have an in-house IT group for ERP/Odoo usage to satisfy their own necessities or serve their customers.</span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-baseline">
+                                <i class="fa fa-1x text-dark fa-check-circle fa-lg"></i>
+                                <div class="col ms-2">
+                                    <span>We have worked with Odoo, both as a developer and as a partner, for a long time. After this time, we have turned out to be genuine specialists. </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="s_faq_collapse pb32">
+                <h4 class="main_heading bi_title bi_line pt24 pb24 text-center">
+                    FAQ's
+                </h4>
+                <div class="container">
+                    <div id="myCollapse" class="accordion" role="tablist">
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="true" class="card-header text-black lead" data-bs-target="#myCollapseTab29688_1">Why should I choose Browseinfo for Odoo integration?</a>
+                            <div class="collapse show" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab29688_1">
+                                <div class="card-body">
+                                    <p class="card-text">Choosing Theonik for Odoo integration offers distinct advantages. As a Gold Partner with a proven record, we have expertise in seamless integration across various industries. Our team tailors solutions to your needs, ensuring data continuity and efficient workflows. With a commitment to excellence and deep Odoo knowledge, we provide reliable, customized integration that aligns with your business goals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab29688_2">What types of integrations does Browseinfo provide?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab29688_2">
+                                <div class="card-body">
+                                    <p class="card-text">Theonik provides a wide range of integrations to enhance your business processes. We specialize in integrating Odoo with various systems, including e-commerce platforms, payment gateways, shipping services, CRM systems, and more. Our expertise ensures seamless data flow, improved efficiency, and a cohesive business ecosystem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab29688_3">Does Browseinfo offer payment gateway integration services?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab29688_3">
+                                <div class="card-body">
+                                    <p class="card-text">Yes, Theonik offers payment gateway integration services. We specialize in seamlessly integrating payment gateways with your Odoo system, enabling smooth and secure online transactions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab29688_4">What are the benefits of integrating E-commerce with an Odoo ERP?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab29688_4">
+                                <div class="card-body">
+                                    <p class="card-text">Integrating E-commerce with an Odoo ERP streamlines inventory, orders, and customer data, reducing errors and enhancing order fulfillment. Real-time insights aid decision-making, while centralized data improves marketing and customer management, boosting efficiency and growth potential.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab29688_5">What advantages does social media integration offer in Odoo?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab29688_5">
+                                <div class="card-body">
+                                    <p class="card-text">Social media integration in Odoo offers several advantages. It enables seamless sharing of content, products, and updates across platforms, expanding your brand's reach. Customer interactions can be managed within Odoo, fostering efficient communication. By consolidating social media efforts within Odoo, you can optimize workflows and improve customer engagement.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+         </template>
+     <template id="odoo_maintenance" name="Odoo Maintenance">
+        <t t-call="website.layout">
+            <section class="pt32 pb32 o_cc o_cc3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5 col-md-6 text-center">
+                            <h1 class="mb-4">ODOO SUPPORT</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="as-snippet-title-02 text-center mt32 mb32">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 ">
+                            <h3 class="m-0">WHY DO WE THINK THAT OPENERP/ODOO IS THE BEST ENTERPRISE APPLICATION AVAILABLE?</h3>
+                        </div>
+                        <div class="col-lg-12 mt32">
+                        	<p class="lead">
+								OpenERP/ODOO offers the extraordinary business solution for its clients, helping them to construct the baseline efficiently. With various of features and functions, OpenERP/ODOO holds best in class modules, application plugins for business having a novel and particular prerequisite. It can serve small and medium-sized business with a broad business management solutions and enable them to produce the desired revenue.
+							</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="as-about-snippet-25 s_comparisons">
+                <div class="container">
+                    <div class="row align-items-center">
+                    	<div class="col-lg-12 text-center">
+                            <h3 class="m-0">HERE’S HOW WE HELP YOUR BUSINESS TO GROW!</h3>
+                        </div>
+                        <div class="col-lg-6 mx-auto pt16 pb16">
+                            <div class="card light-border p-4 shadow-sm border-radius-12">
+                                <img class="img-fluid" src="//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/odoo-support.jpg" alt="Odoo Support" width="580" height="580" loading="lazy" style=""/>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div class="card light-border p-5 shadow-sm border-radius-12">
+                                <ul class="list-unstyled m-0">
+                                    <li class="d-flex mb-3 align-items-center">
+                                        <i class="fa fa-2x text-dark fa-check-circle fa-lg"></i>
+                                        <div class="col ms-3">
+                                            We know the hassle and road less traveled for customer retention and it isn't something that frequently happens. In some cases, because of group modules or small bugs in Odoo, the end user can get trapped in the complexity of the platform. In that sort of circumstance, an end client tries to discover supporting hands which helps them come out of the problem.
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-3 align-items-center">
+                                        <i class="fa fa-2x text-dark fa-check-circle fa-lg"></i>
+                                        <div class="col ms-3">
+                                            Our team at <a href="https://www.theonik.in/">Theonik</a> can take care of our client’s concern on the spot and attempt to give them effective help. After deployment and implementation of the Odoo, Some of the time, end-client needs upgrades in an ERP framework to get more compelling outcomes from it. We are here to be the bridge between your Odoo problems and provides you the best possible support for your any queries.
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-3 align-items-center">
+                                        <i class="fa fa-2x text-dark fa-check-circle fa-lg"></i>
+                                        <div class="col ms-3">
+                                            Theonik has an expertise in giving different administrations to OpenERP/ODOO which includes support, training, Migration, Offshore and <a href="/odoo-implementation/">Odoo Implementation</a> for your necessities. We have an extensive variety of services and offers to satisfy your business necessities, which you can avail of our support package.
+                                        </div>
+                                    </li>
+                                    <li class="d-flex mb-3 align-items-center">
+                                        <i class="fa fa-2x text-dark fa-check-circle fa-lg"></i>
+                                        <div class="col ms-3">
+                                            In typical situations, support is not the same as offshore, however, we are here to provide you the best solutions which include all administrations in our <a href="https://www.browseinfo.in/blog/browseinfo-app-articles-3/post/things-to-consider-before-you-consider-odoo-support-provider-company-online-33">Odoo ERP support</a> package! We offer help of Odoo support beginning from 4.2 version to most recent stable form of Odoo.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt64 pb64 s_comparisons o_cc o_cc2">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-12">
+                            <h4 class="h1 mb-4 text-dark text-center">Are you searching for reliable Odoo support?</h4>
+                            <p class="lead pb-2 text-center">You don't get the idea of everything in life by perusing just a documentation or reading a client manually. Along these lines, if you have inquiries regarding <a href="#">Odoo services</a>, specialized design, technical questions, usage, beginning, or whatever else, please ask us. Our profoundly prepared staff is ready to answer your any questions.</p>
+                        </div>
+                        <div class="col-lg-12 s_comparisons">
+                            <div class="row">
+                                <div class="col-12 pb24 me-5">
+                                    <div class="card shadow-lg border-radius-12 p-3 border-0">
+                                        <div class="d-flex mb-4">
+			                                <i class="fa fa-1x fa-object-ungroup bg-dark me-auto rounded-circle text-white"></i>
+			                                <div class="col ms-3">
+			                                    <h6 class="mb-1 text-dark">COMPACT AND LARGE BUSINESS MANAGEMENT APPLICATION:</h6>
+			                                    <span>
+													OpenERP/ODOO's business application is particularly modified to run specific operation inside their relevant department. This cover project management, invoicing and accounting to proficiently deal with contracts and cost exclusively.
+												</span>
+                                                <span class="toggle-text"><br></br> Warehouse administration, buy and manufacturing applications are also secured with the high-end integration for the best possible business outcomes and productivity.</span>
+			                                </div>
+			                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb24 ms-lg-5">
+                                    <div class="card shadow-lg border-radius-12 p-3 border-0">
+                                        <div class="d-flex mb-4">
+			                                <i class="fa fa-1x fa-bath bg-dark me-auto rounded-circle text-white"></i>
+			                                <div class="col ms-3">
+			                                    <h6 class="mb-1 text-dark">MARKET EXTENSIONS AND SALES BOOSTING:</h6>
+			                                    <span>
+													Various business upgrading application for organizations who are endeavoring to extend their marketing and promotions both locally and internationally is also an essential piece of OpenERP/ODOO feature.
+												</span>
+                                                <span class="toggle-text"><br></br>Activities connected to these applications include live video chat with the site visitor, taking care of market-related reviews, event management, and lead generation. Every one of these activities is initiated with the goal of broadening the market extent of any business, and as a beginning, the measure to support its profits. OpenERP/ODOO additionally has business application to build association's deals through client relationships such as CRM, Point of Sale and many others.</span>
+			                                </div>
+			                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb24 me-5">
+                                    <div class="card shadow-lg border-radius-12 p-3 border-0">
+                                        <div class="d-flex mb-4">
+			                                <i class="fa fa-1x fa-desktop bg-dark me-auto rounded-circle text-white"></i>
+			                                <div class="col ms-3">
+			                                    <h6 class="mb-1 text-dark">WEBSITE DEVELOPMENT AND BUSINESS PRODUCTION BOOSTING:</h6>
+			                                    <span>
+													From Blog to eCommerce, OpenERP/ODOO's site building applications are produced with respect to the promotional approach to connect with a more extensive worldwide gathering of people of potential business customers or clients.
+												</span>
+                                                <span class="toggle-text"><br></br> It permits organization proprietors to build up their own websites which are search engine optimized. Also, OpenERP/ODOO helps for the advancement of numerous compelling business profitability tools and programming, for example, business insight and instant web-based online messaging service to ask for intelligence objectives and strengthen critical thinking abilities. Studies and significant to-do notes and furthermore make sure that the organization accomplishes its set generation points.</span>
+			                                </div>
+			                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="s_faq_collapse pt32 pb32">
+                <h4 class="main_heading bi_title bi_line pt24 pb24 text-center">
+                    FAQ's
+                </h4>
+                <div class="container">
+                    <div id="myCollapse" class="accordion" role="tablist">
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="true" class="card-header text-black lead" data-bs-target="#myCollapseTab473358_1">Does Theonik provide Technical as well as odoo functional support?</a>
+                            <div class="collapse show" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab473358_1">
+                                <div class="card-body">
+                                    <p class="card-text">Yes, Theonik provides both technical and functional support for Odoo. Whether you need help with coding, customization, module development (technical support), or require guidance on business processes, or system configurations (functional support), we're here to provide the expertise you need to maximize your Odoo experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab473358_2">Why is Theonik the Best in Odoo ERP Support?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab473358_2">
+                                <div class="card-body">
+                                    <p class="card-text">Theonik stands out as the best in Odoo ERP support due to our Partner status, showcasing our expertise and successful track record. We offer comprehensive assistance, including implementation, customization, training, and ongoing support. Our commitment to excellence, proven solutions, and dedicated customer focus sets us apart, making us the top choice for reliable and effective Odoo ERP support.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab473358_3">What is the average response time for support requests?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab473358_3">
+                                <div class="card-body">
+                                    <p class="card-text">The average response time for support requests can vary based on the complexity and volume of inquiries. Typically, we strive to respond within 24 to 48 hours during regular business days. Our priority is to address your needs promptly and provide efficient solutions to ensure minimal disruptions to your operations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab473358_4">How can I reach you when we need Odoo support?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab473358_4">
+                                <div class="card-body">
+                                    <p class="card-text">You can easily reach us for Odoo support through various channels. You can email us at [Email], or use the support portal on our website. We're dedicated to providing timely assistance to address your queries and ensure your Odoo experience is smooth and productive.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab473358_5">How do I request support from Theonik for my Odoo system?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab473358_5">
+                                <div class="card-body">
+                                    <p class="card-text">Requesting support from Theonik for your Odoo system is simple. You can submit a support ticket through our online support portal on our website. Alternatively, you can email us at [Email]. Our team will promptly respond to your request and provide the necessary assistance to address your Odoo system needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab473358_6">Can Theonik provide support in multiple languages?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab473358_6">
+                                <div class="card-body">
+                                    <p class="card-text">Theonik offers support in both English and various Indian regional languages. We understand the significance of effective communication. If needed, we can also facilitate communication through a translator to ensure comprehensive and clear assistance for your Odoo requirements.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+     </template>
+     <template id="odoo_development" name="Odoo Development">
+        <t t-call="website.layout">
+          <section class="pt32 pb32 o_cc o_cc3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5 col-md-6 text-center">
+                            <h2 class="mb-4">Odoo Application Development</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt32">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">If we talk Odoo Application Development, ODOO is an open-source business application suite that is coordinated together to help an organization in gathering, overseeing, and announcing data all through center business forms. The latest version of ODOO(formerly called OpenERP) gives web developers, online business the purpose of offering an effective business planning service.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">With a consistent mix, Odoo is advancing at the quickest pace and is the ideal answer for small and medium-sized businesses. Helping the organization to oversee, mechanize, automate, measure, and upgrade its operations, Odoo is utilized by organizations of all sizes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">There is an assortment of explanations behind why you ought to think about Odoo. It is comprehensive, advancing the innovation in the industry, diminishes the user end cost and effortlessly coordinated; most importantly it can be customized by your one of a kind business needs, and best of all, the source code of this platform is within reach to everybody in light of its open-source nature.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">Having said all that, this product autonomously deals with every one of your necessities, be it HR, deals, back operations, correspondence, promoting, or client Relation Management. As said in advance of, Odoo programming is comprehensive. And so forth, with Odoo application development service, you can make sure of getting all applications that are unquestionably required for building up your business, which is included without a glitch and work properly with each other.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">Our Team of Expert Odoo Developers has expertise in ODOO development as well as odoo application development and are dedicated to giving the right solutions for the different ERP prerequisites given by the client by ensuring quality and practical enterprise planning solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">Odoo ERP development requires learning and knowledge in many fields. The inside and out learning of the innovations utilized as a part of Odoo is an absolute necessity.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-play bg-light fa-angellist text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p class="lead">This is the place where Theonik comes in and offers the best Open ERP development for any organization utilizing Odoo. As one of odoo, reserved only for the best and most qualified Odoo consultants from around the globe, we will continue our expertise in offering top-notch Odoo services including odoo application development services to our clientele.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
+				<section class="bi_content">
+					<h2 class="bi_title container text-center">
+						Odoo Development Services:
+					</h2>
+					<p>
+						Our one of a kind Full-Service project planning presents to you the best of the industry’s  Odoo Development Services for your Odoo software development and implementation needs.
+					</p>
+					<ol class="pl-15" style="font-size: 18px;">
+						<li class="mb16">
+							<h4>Master Customization: </h4>
+							<ul>
+								<li>
+									We bring the best out of the Odoo version. Our OpenERP development specialists see each unpredictable insight about the version and customize it as needed.
+								</li>
+							</ul>
+						</li>
+						<li class="mb16">
+							<h4>Clean Code:</h4>
+							<ul>
+								<li>
+									Customization is finished remembering future upkeep. We compose clean code that intends to convey most ideal outcomes for the association.
+								</li>
+							</ul>
+						</li>
+						<li class="mb16">
+							<h4>Best ROI:</h4>
+							<ul>
+								<li>
+									We build up the framework with the goal that it brings the best ROI for the business. The ROI is the thing that the greater part of the association search for, and we likewise take it as a genuine suggestion in our work.
+								</li>
+							</ul>
+						</li>
+					</ol>
+					<h4>
+						There are various Odoo modules that can be implemented in the below categories (but not limited to):
+					</h4>
+					<ul style="font-size: 18px;">
+						<li>
+							Accounting
+						</li>
+						<li>
+							Human Resources
+						</li>
+						<li>
+							Manufacturing
+						</li>
+						<li>
+							Project Management
+						</li>
+						<li>
+							Purchases And Sales
+						</li>
+						<li>
+							Warehousing
+						</li>
+					</ul>
+				</section>
+			</div>
+
+            <section class="s_tabs pt48 pb48 o_colored_level tabs-design-6" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: none;">
+               <div class="container">
+                 <div class="s_tabs_main">
+                   <div class="s_tabs_nav mb-3 nav-justified">
+                     <ul class="nav nav-pills" role="tablist">
+                       <li class="nav-item shadow-lg">
+                         <a class="nav-link shadow-sm border-radius-12 active" id="nav5_tabs_content_1_tab" data-bs-toggle="tab" href="#nav5_tabs_content_1" role="tab" aria-controls="nav5_tabs_content_1" aria-selected="true">
+                            <div class="d-flex">
+                                <i class="fa fa-1x fa-twitch bg-primary rounded-circle fa-lg"></i>
+                                <div class="col ms-3 text-start">
+                                    <h6 class="mb-1 mt-3">Why You Choose Us For Odoo ERP Development?</h6>
+                                </div>
+                            </div>
+                         </a>
+
+                       </li>
+                       <li class="nav-item shadow-lg">
+                         <a class="nav-link shadow-sm border-radius-12" id="nav5_tabs_content_2_tab" data-bs-toggle="tab" href="#nav5_tabs_content_2" role="tab" aria-controls="nav5_tabs_content_2" aria-selected="false">
+                            <div class="d-flex">
+                                <i class="fa fa-1x fa-twitch bg-primary rounded-circle fa-lg"></i>
+                                <div class="col ms-3 text-start">
+                                    <h6 class="mb-1 mt-3">How Odoo ERP Development Helps You To Get An Edge Over Your Competitors?</h6>
+                                </div>
+                            </div>
+                         </a>
+                       </li>
+
+                     </ul>
+                   </div>
+                   <div class="s_tabs_content tab-content">
+
+                     <div class="tab-pane fade active show" id="nav5_tabs_content_1" role="tabpanel" aria-labelledby="nav5_tabs_content_1_tab">
+                       <div class="oe_structure oe_empty">
+                         <section class="s_text_block" style="background-image: none;">
+                                <div class="container s_allow_columns">
+                                    <div class="row align-items-center justify-content-lg-between">
+                                        <div class="col-lg-12 pt16 pb16">
+                                            <ul class="list-unstyled mb-5 pt-2">
+                                                <li class="d-flex align-items-center mb-2">
+                                                    <i class="fa fa-1x fa-check-circle text-dark fa-lg"></i>
+                                                    <span class="ms-3 col">Each module of Odoo has a unique attribute for your business. It also helps in various business procedures, projection planning, and requirements.</span>
+                                                </li>
+                                                <li class="d-flex align-items-center mb-2">
+                                                    <i class="fa fa-1x fa-check-circle text-dark fa-lg"></i>
+                                                    <span class="ms-3 col">Theonik, an experienced <b> Odoo Partner </b> can guide you in the implementation of the Odoo solutions both on a business and a technical ground.We provide cutting-edge odoo customization services to the business with our comprehensive services such as Odoo Development, Implementation, Customization, Consulting, and Maintenance &amp; Support. With our vast business experience, we provide end to end custom solutions &amp; services for Odoo ERP.</span>
+                                                </li>
+                                                <li class="d-flex align-items-center mb-2">
+                                                    <i class="fa fa-1x fa-check-circle text-dark fa-lg"></i>
+                                                    <span class="ms-3 col">Theonik is gaining practical experience in end to end Odoo execution services, appropriate from choosing the ideal server to help with studying the work processes and reconciliation, we will ensure that our Odoo ERP development for your business is the best solution. Covering the unpredictable needs of clients, we will help get your procedure under control with fitting customization since we realize that each business is novel. The many-sided quality of Odoo improvement relies upon the modules and customization that your business operation requests, yet with Browseinfo close by, you don't need to have the concern. Our qualified and capable group comprises specialized, utilitarian, and quality development assets that are knowledgeable about actualizing OpenERP that will take care of your business.</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                         </section>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade" id="nav5_tabs_content_2" role="tabpanel" aria-labelledby="nav5_tabs_content_2_tab">
+                       <div class="oe_structure oe_empty">
+                         <section class="s_text_block" style="background-image: none;">
+                                 <div class="container s_allow_columns">
+                                    <div class="row align-items-center justify-content-lg-between">
+                                        <div class="col-lg-12 pt16 pb16">
+                                            <ul class="list-unstyled mb-5 pt-2">
+                                                <li class="d-flex align-items-center mb-2">
+                                                    <i class="fa fa-1x fa-check-circle text-dark fa-lg"></i>
+                                                    <span class="ms-3 col">Expanding the highlights of Odoo some time ago known as Open ERP offers a wide scope of advantages that guide business to develop in an uncommon way. It offers a bunch number of highlights and functionalities and is rich with 1000+ modules that are prepared to be incorporated according to your business needs. Coded in cutting-edge innovation like Python and supported by PostgreSQL, It is very financially savvy and is fit for adjusting the most recent worldview. The adaptable yet hearty structure of Odoo ERP conveys a very much requested component for information change. Such simple, flexible, and Open Source System are best-fitted to manufacture ventures for SME. To start your development process for your business, drop us your necessities.</span>
+                                                </li>
+                                                <li class="d-flex align-items-center mb-2">
+                                                    <i class="fa fa-1x fa-check-circle text-dark fa-lg"></i>
+                                                    <span class="ms-3 col">We Are Here To Assist You With your Business Goals.</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                         </section>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+            </section>
+        </t>
+     </template>
+     <template id="odoo_migration" name="Odoo Migration">
+        <t t-call="website.layout">
+            <section class="pt32 pb32 o_cc o_cc3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5 col-md-6 text-center">
+                            <h2 class="mb-4">ODOO MIGRATION</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt32 pb32">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <h3 class="text-center">Why should you go for Odoo Migration?</h3>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+
+                                <div class="col ms-3">
+                                    <li class="lead text-center">Get new, quality and new upgraded features</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+
+                                <div class="col ms-3">
+                                    <li class="lead text-center">As the cost and spending weights increase, you can pick a platform your CFO will love. </li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+
+                                <div class="col ms-3">
+                                    <li class="lead text-center">Run the workloads that push your business forward</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+
+                                <div class="col ms-3">
+                                    <li class="lead text-center">If your implementation and budget requests are expanding, it's a great opportunity to migrate.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+
+                                <div class="col ms-3">
+                                    <li class="lead text-center">Rapidly meet business sales and other needs</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+
+                                <div class="col ms-3">
+                                    <li class="lead text-center">Keep space with moving markets and changing business needs.</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt32 pb32">
+                <div class="container">
+                	<div class="row justify-content-center">
+                        <div class="col-lg-12 col-md-6 text-center">
+                            <h2 class="mb-4">Your Trusted Odoo Partner for ERP Technology Solutions</h2>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-chevron-circle-right bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p>In this quickly changing competitive business world, it is hard to stand to be side by side with new innovation and technology for confronting the difficulties. Odoo Migration and re-building of programming applications starting with one feature then onto the next have turned out to be inescapable.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-chevron-circle-right bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p>As one of the growing Odoo ERP companies, Theonik is here to help you migrate from Odoo old versions to a new and a better version. As a Odoo Partner, we are focused on innovation and creativity to lead the change, since our inception.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pt16 pb16">
+                            <div class="d-flex">
+                                <i class="fa fa-chevron-circle-right bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+                                <div class="col ms-3">
+                                    <p>Odoo ERP conveys the nimbleness, versatility, and speed to do what's most vital to run the business when looked at even with the uncertain future.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="s_showcase pt32 pb32" data-vcss="002">
+		        <div class="container">
+		            <div class="row g-0 s_col_no_resize s_col_no_bgcolor s_nb_column_fixed">
+		            	<h3 class="text-center">HOW TO DO ODOO MIGRATION EFFICIENTLY?</h3>
+		                <div class="col-lg text-lg-end">
+		                    <div class="row">
+		                        <div class="col-lg-12 pt24 pb24" data-name="Block">
+		                            <div class="s_showcase_title d-flex flex-lg-row-reverse mb-2">
+		                                <h3>Legacy System to ERP:</h3>
+		                            </div>
+                                    <p>Organizations are unaware of the innovation or frameworks that do not have the features to help business operations, and can't scale up to a developing client base. <br></br>
+									We at <a href="https://www.theonik.in/">Theonik</a> comprehends the requirement for change and will enable you to update your frameworks or applications so as to profit your business by advancing the correct blend of existing (Application Management) versus new innovation Odoo ERP (Migration, Enhancements).</p>
+		                        </div>
+		                        <div class="col-lg-12 pt24 pb24" data-name="Block">
+		                            <div class="s_showcase_title d-flex flex-lg-row-reverse mb-2">
+		                                <h3>Odoo ERP Migration/Version Upgrades</h3>
+		                            </div>
+		                            <p>We have a strong expertise in Odoo ERP migration for higher versions that can give benefit and effectively move existing ERP applications or inheritance applications to open source without affecting information element, usefulness or business process/stream. Our group of ERP experts/designers ensures the smooth relocation of information and applications with their thorough testing and approval.</p>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="col-1">
+		                    <div class="w-50 h-100 border-end"></div>
+		                </div>
+		                <div class="col-lg">
+		                    <div class="row">
+		                        <div class="col-lg-12 pt24 pb24" data-name="Block">
+		                            <div class="s_showcase_title d-flex mb-2">
+		                                <h3>Steps to move from Legacy framework to Odoo ERP:</h3>
+		                            </div>
+		                            <p></p><ol class="text-left p-3" style="margin-left:10px;font-size:18px;">
+										<span>
+											<li>
+												Backup the Legacy System: Although we don’t deal with the real server of the Odoo ERP, we back it up. That is the manner by which cautious we are...
+											</li>
+											<a class="toggle-text-button">...read more</a>
+											</span>
+                                    <span class="toggle-text"><br></br>
+											<li>
+												Send a test lab or pilot venture: we utilize a test-lab way to access the Odoo ERP.
+											</li>
+											<li>
+												Move the Modules: We additionally re-make modules that never again exist or that were uniquely designed.
+											</li>
+											<li>
+												Data transfer: We relocate that information while taking care of the changes in the database foundation, to the new Odoo ERP.
+											</li>
+											<li>
+												Test the ERP: Although we constantly test the ERP all through the procedure, we do the last test when the entire ERP is relocated. This test enables us to settle those little bugs that we missed while taking a shot at the ERP.
+											</li></span>
+									</ol>
+								<p></p>
+		                        </div>
+		                        <div class="col-lg-12 pt24 pb24" data-name="Block">
+		                            <div class="s_showcase_title d-flex mb-2">
+		                                <h3>How soon can the Odoo migration function begin?</h3>
+		                            </div>
+		                            <p>After getting the information from you, we will start to survey your System, and afterward send you a thorough report.Please <a href="/contact-us">contact us</a> to discuss your requirements.</p>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </section>
+
+            <section class="s_faq_collapse pb32">
+                <h4 class="main_heading bi_title bi_line pt24 pb24 text-center">
+                    FAQ's
+                </h4>
+                <div class="container">
+                    <div id="myCollapse" class="accordion" role="tablist">
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="true" class="card-header text-black lead" data-bs-target="#myCollapseTab277638_1">Why should you go for Odoo Migration?</a>
+                            <div class="collapse show" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab277638_1">
+                                <div class="card-body">
+                                    <p class="card-text">Opting for Odoo migration brings several benefits. Upgrading to the latest version ensures access to new features, improved security, and enhanced performance. Migrating also allows for smoother integration with third-party applications and integrations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab277638_2">How to do Odoo Migration Efficiently?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab277638_2">
+                                <div class="card-body">
+                                    <p class="card-text">Efficient Odoo migration involves strategic steps. We assess your system, plan tasks, and backup data. Rigorous testing identifies issues before live migration. With stakeholder communication, we execute the migration and address post-migration concerns. Collaborate with us for expert guidance and streamlined migration.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab277638_3">How soon can the Odoo migration function begin?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab277638_3">
+                                <div class="card-body">
+                                    <p class="card-text">The timing for starting the Odoo migration process depends on various factors, such as the complexity of your current system, the volume of data, and the extent of customization. It's best to contact us to discuss your specific requirements. Once we understand your needs, we can provide an estimate of when the migration process can commence and work towards a timeline that suits your business.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+     </template>
+     <template id="odoo_consultancy" name="Odoo Consultancy">
+        <t t-call="website.layout">
+            <section class="pt32 pb32 o_cc o_cc3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5 col-md-6 text-center">
+                            <h2 class="mb-4">ODOO CONSULTANCY</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt32 pb32 o_colored_level as-home-banner-12">
+                <div class="container text-center">
+                	<h3>LEADING ODOO ERP CONSULTANCY COMPANY IN INDIA</h3>
+                    <div class="s_hr text-start pt8 pb16" data-snippet="s_hr" data-name="Separator">
+                        <hr class="mx-auto w-50px" style="border-top-style: solid; border-top-width: 1px !important; border-top-color: rgb(0, 0, 0) !important;"/>
+                    </div>
+
+					<div class="row align-items-center">
+						<div class="col-lg-12 pt16 pb16 o_colored_level gallery-image gallery-zoom-in-effect">
+                            <img class="img-fluid" src="//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/odoo_consultancy.gif" alt="Odoo Consultancy" data-original-title="" title="" aria-describedby="tooltip97443" data-original-id="395" data-original-src="/website/static/src/img/snippets_demo/s_parallax.jpg" data-mimetype="image/svg+xml" data-shape="web_editor/basic/bsc_organic_1" data-file-name="s_parallax.svg" data-shape-colors=";;;;" data-original-mimetype="image/jpeg" loading="lazy" width="704" height="352" style=""/>
+                        </div>
+					</div>
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-12 pt16 pb16">
+                            <p class="lead my-4 w-lg-100">
+
+                            As a one of the leading and growing Odoo <b style="font-weight: 600;">consultant in India</b>, our Odoo specialists as your partner, will give you the best guide to deliver your business. We deliberately study your business procedures and work on it by examining, drafting a theoretical engineering solution, outlining, characterizing techniques, creating reports, mapping every one of them to build up a total framework for your business. Our  <b style="font-weight: 600;">Odoo ERP Consultants</b> can be the best fit who manages the determination and development of most ideal for your framework.
+
+                            Our <b style="font-weight: 600;">Odoo consultant</b> bring expertise in implementing and customizing solutions tailored to your business. From streamlining operations to optimizing efficiency, we deliver comprehensive services for seamless integration and improved performance.
+                            </p>
+                            <p class="lead my-4 w-lg-100">We need to be your master key to open up all arrangements related to Odoo ERP.</p>
+                        </div>
+                    </div>
+
+                    <p class="lead mt-2">
+                    	Theonik endeavours to work as your Odoo consultant with your objectives; your methodology and goals; to ensure that your business improvement is progressing nicely.
+                    </p>
+                	<div class="">
+                    	<p class="lead my-4">
+                    	Odoo is such a huge ERP platform to the point that occasionally it is smarter to understand its technical architecture and functionality before choosing its usage in your business. In many scenarios, you may discover troubles in implementing Odoo because of many elements, for example, low spending plan, restricted assets, the small scale of business, inadequate workers, absence of appropriate vision and some more.
+                    </p>
+                    	<p>
+							So it is best to look for <b style="font-weight: 600;">Odoo consulting services</b> before implementation.
+						</p>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 pt16 pb16">
+                            <p class="lead my-4 w-lg-100">
+                            No one in the world is perfect. Even the Odoo. This broadly acknowledged open-source programming additionally has some constraint. Odoo gives every one of the baking recipes to prepare an "ERP" cake, and with our  </p><h2>Odoo consulting services </h2>, we put our best to beat all and create the best ERP cake that suits your business needs.
+                        <p></p>
+                            <p class="lead my-4 w-lg-100">Odoo implementation and development without legitimate direction may lead to zero and you have to start from the beginning.</p>
+                        </div>
+                        <div class="col-lg-5 pt16 pb16 o_colored_level gallery-image gallery-zoom-in-effect">
+                            <img class="img-fluid" src="//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/consultancy.gif" alt="Odoo Consultancy" data-original-title="" title="" aria-describedby="tooltip97443" data-original-id="395" data-original-src="/website/static/src/img/snippets_demo/s_parallax.jpg" data-mimetype="image/svg+xml" data-shape="web_editor/basic/bsc_organic_1" data-file-name="s_parallax.svg" data-shape-colors=";;;;" data-original-mimetype="image/jpeg" loading="lazy" width="482" height="252" style=""/>
+                        </div>
+                    </div>
+
+                    <section class="as-snippet-title-01 text-center">
+                        <div class="container">
+                        	<h3>LEADING ODOO ERP CONSULTANCY COMPANY</h3>
+		                    <div class="s_hr text-start pt8" data-snippet="s_hr" data-name="Separator">
+		                        <hr class="mx-auto w-50px" style="border-top-style: solid; border-top-width: 1px !important; border-top-color: rgb(0, 0, 0) !important;"/>
+		                    </div>
+                            <div class="row justify-content-center">
+                                <div class=" col-lg-12 m-auto pb32">
+                                    <section class="pt32 pb32">
+				                        <div class="container">
+				                            <div class="row justify-content-center">
+				                                <div class="col-lg-8 pt16 pb16">
+				                                    <div class="d-flex">
+				                                        <i class="fa fa-play bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+				                                        <div class="col ms-3">
+				                                            <p class="lead">As a leading <b style="font-weight: 600;">Odoo consultant in India</b>, we study and investigate each part of your prerequisite and offer solutions which best fit your necessities and desires. Our partnership will help you in the entire business lifecycle - from the data configuration, gathering stage to its execution.</p>
+				                                        </div>
+				                                    </div>
+				                                </div>
+				                                <div class="col-lg-8 pt16 pb16">
+				                                    <div class="d-flex">
+				                                        <i class="fa fa-play bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+				                                        <div class="col ms-3">
+				                                            <p class="lead">We have a master pool of important and experienced <b style="font-weight: 600;">Odoo consultant </b> who offer their insight-based thoughts and proposals to enhance your decisions and profit from worldwide market patterns and advances. Our <b style="font-weight: 600;">Odoo ERP consultants</b>, subsequent to evaluating your necessities, will enable you to settle on your goals. </p>
+				                                        </div>
+				                                    </div>
+				                                </div>
+				                                <div class="col-lg-8 pt16 pb16">
+				                                    <div class="d-flex">
+				                                        <i class="fa fa-play bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+				                                        <div class="col ms-3">
+				                                            <p class="lead">We offer the subjective mastery in innovation and business process at exceptionally aggressive rates.
+															We offer our administrations as a consultancy when you require our master investigation on client relationship administration and endeavour asset arranging systems.</p>
+				                                        </div>
+				                                    </div>
+				                                </div>
+				                                <div class="col-lg-8 pt16 pb16">
+				                                    <div class="d-flex">
+				                                        <i class="fa fa-play bg-o-color-3 fa-2x text-dark rounded-circle"></i>
+				                                        <div class="col ms-3">
+				                                            <p class="lead">We make inquiries on the premise of our experience to adjust and evaluate the present circumstance of the client's association. On the premise of our understanding, we recommend at the high level at which a client ought to consider executing ERP arrangement which increases the value of their business and makes their business forms financially savvy. Depending upon the assignments and procedures engaged with the installation procedure, we propose distinctive methodologies for ERP usage.</p>
+				                                        </div>
+				                                    </div>
+				                                </div>
+				                            </div>
+				                        </div>
+				                    </section>
+
+									<p class="lead">
+                                    	We make inquiries on the premise of our experience to adjust and evaluate the present circumstance of the client's association.Based on our experience, we advise clients to execute ERP arrangements that boost their company's worth and transform their business models into profitable ones at a high level. Depending upon the assignments and procedures engaged with the installation procedure, we propose distinctive methodologies for ERP usage.
+                                    </p>
+                                    <p class="lead">
+										Looking for the more information on our services or want to know what will be the partnership cost? <a href="https://www.theonik.in/">Theonik</a> is just one call away.
+									</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="s_faq_collapse pb32">
+            	<h4 class="main_heading bi_title bi_line pt24 pb24 text-center">
+					FAQ's
+				</h4>
+		        <div class="container">
+		            <div id="myCollapse" class="accordion" role="tablist">
+		                <div class="card bg-white" data-name="Item">
+		                    <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="true" class="card-header text-black lead" data-bs-target="#myCollapseTab589910_1">Why choose Theonik for ERP consultation?</a>
+		                    <div class="collapse show" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab589910_1">
+		                        <div class="card-body">
+		                            <p class="card-text">Choosing Theonik for ERP consultation offers a host of benefits. We bring extensive experience across industries, ensuring tailored solutions to your unique needs. Our proven track record showcases successful implementations. With our in-depth understanding of ERP systems, we guide you effectively. Partnering with us means access to expertise, reliability, and a commitment to driving your business's growth through efficient ERP solutions.</p>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="card bg-white" data-name="Item">
+		                    <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab589910_2">What is the difference between a certified Odoo consultant and a freelance Odoo consultant?</a>
+		                    <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab589910_2">
+		                        <div class="card-body">
+		                            <p class="card-text">A certified Odoo consultant, like us, has undergone official training and met specific criteria set by Odoo. This ensures expertise in Odoo's functionalities, best practices, and updates. In contrast, a freelance Odoo consultant operates independently and might lack official certification. While freelancers can be skilled, certified consultants offer a deeper understanding of Odoo's evolving capabilities and are also backed by ongoing training.</p>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="card bg-white" data-name="Item">
+		                    <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab589910_3">Why should I consider using Odoo for my business?</a>
+		                    <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab589910_3">
+		                        <div class="card-body">
+		                            <p class="card-text">Considering Odoo for your business offers numerous advantages. Odoo provides an all-in-one suite of applications that cover various business needs like CRM, inventory management, accounting, e-commerce, and more. This integrated approach streamlines processes, reducing the need for multiple disjointed systems. Additionally, Odoo is highly customizable, allowing you to tailor the software to match your specific workflows.</p>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="card bg-white" data-name="Item">
+		                    <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab589910_4">What makes Browseinfo different from other Odoo consultants?</a>
+		                    <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab589910_4">
+		                        <div class="card-body">
+		                            <p class="card-text">Theonik sets itself apart as a Gold Partner with a proven track record of successful Odoo implementations. Our team of industry experts tailors solutions to your needs, ensuring optimal software utilisation. We prioritise robust client support and align with Odoo's industry benchmarks, underscoring our uniqueness among other Odoo consultants.</p>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </section>
+        </t>
+     </template>
+    <template id="odoo_training" name="Odoo Training">
+        <t t-call="website.layout">
+            <section class="pt32 pb32 o_cc o_cc3">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5 col-md-6 text-center">
+                            <h2 class="mb-4">ODOO TRAINING</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="s_picture pt32 o_cc">
+		        <div class="container">
+		            <h3 style="text-align: center;" class="text-dark"><font style="">ODOO ERP TRAINING WITH THE COMPLETE PROCESS</font></h3>
+		            <p style="text-align: center;" class="lead">We give Odoo training of Odoo to every one of the parts in your business, be it lead generation, marketing and offers, co-ordinations, client relations, and so on. Technical training of Odoo is imperative to influence the most to out of your <a href="/odoo-implementation">Odoo implementation</a> and understand the propelled includes in a detailed manner. With our complete training service, you will end up being a power client of Odoo with cutting edge information of each capacity. Our Odoo ERP training is gone for diminishing the time spent on operations and individual learning. </p>
+		        </div>
+		    </section>
+
+            <section class="pt32 pb32 s_comparisons o_cc">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-12 s_comparisons">
+                            <div class="row">
+                                <div class="col-12 pb24 me-5">
+                                    <div class="card shadow-lg border-radius-12 p-3 border-0">
+                                        <div class="d-flex mb-4">
+			                                <i class="fa fa-1x fa-object-ungroup bg-dark me-auto rounded-circle text-white"></i>
+			                                <div class="col ms-3">
+			                                    <span>
+													Odoo ERP is a very large feature-rich framework that occasionally end-client doesn't know how to use and what to configure to get the desired results. Skilled and trained representatives are more well-suited to settle issues rapidly, without disturbing the ongoing work environment, viably sparing time and cash.
+												</span>
+			                                </div>
+			                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb24 ms-lg-5">
+                                    <div class="card shadow-lg border-radius-12 p-3 border-0">
+                                        <div class="d-flex mb-4">
+			                                <i class="fa fa-1x fa-bath bg-dark me-auto rounded-circle text-white"></i>
+			                                <div class="col ms-3">
+			                                    <span>
+													Today in this corporate world, organizations are looking for the approaches to prepare their workforce at a colossal level and even that too by sparing time and the cost of travel.When you've put resources into new advances, even a little measure of preparing could significantly enhance your staff's efficiency.
+												</span>
+			                                </div>
+			                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb24 me-5">
+                                    <div class="card shadow-lg border-radius-12 p-3 border-0">
+                                        <div class="d-flex mb-4">
+			                                <i class="fa fa-1x fa-desktop bg-dark me-auto rounded-circle text-white"></i>
+			                                <div class="col ms-3">
+			                                    <span>
+													Boosting the abilities and learning of your representatives requires a committed training staff. Keeping in mind the end goal to facilitate their managerial issues , we at <a href="https://www.theonik.in/">Theonik</a> are providing viable Odoo training service composed particularly to fulfill your training objectives.
+												</span>
+			                                </div>
+			                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb24 ms-lg-5">
+                                    <div class="card shadow-lg border-radius-12 p-3 border-0">
+                                        <div class="d-flex mb-4">
+			                                <i class="fa fa-1x fa-superpowers bg-dark me-auto rounded-circle text-white"></i>
+			                                <div class="col ms-3">
+			                                    <span>
+													We offer the training module that has a rich arrangement of features planned solely to meet your training needs agreeably. Our customized Odoo training module ,gives you a chance to separate the most extreme from your training goals and effectively meet the imperative objectives of your training.
+												</span>
+			                                </div>
+			                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt32 pb32">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <h2 class="text-center">Useful Odoo Training benefits that our client gets :</h2>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+                                <div class="col ms-3">
+                                    <li class="lead text-center">To offer the profitable proposals to upgrade the efficiency of a business.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+                                <div class="col ms-3">
+                                    <li class="lead text-center">In reporting the framework settings and setting up the best possible rules that permit other Odoo advisors to do additional changes or repair the issues with the least planning.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+                                <div class="col ms-3">
+                                    <li class="lead text-center">In understanding complex Odoo setups and produce test contents for testing the development situations.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+                                <div class="col ms-3">
+                                    <li class="lead text-center">To facilitate with other Odoo advisors for combination prerequisites with third-party applications.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+                                <div class="col ms-3">
+                                    <li class="lead text-center">Be an ERP backend administrator to control and oversee ERP for your organization.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+                                <div class="col ms-3">
+                                    <li class="lead text-center">Introduce Odoo effectively and manage it with every single required bundle and modules.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+                                <div class="col ms-3">
+                                    <li class="lead text-center">Utilize/call Odoo API with a specific end goal to coordinate outsider frameworks.</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt16 pb16">
+                            <div class="d-flex">
+                                <div class="col ms-3">
+                                    <li class="lead text-center">Be sufficiently capable to make your own particular custom module.</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="s_picture pt32 o_cc">
+                <div class="container">
+                    <h3 style="text-align: center;" class="text-dark"><font style="">ARE YOU SEARCHING FOR ODOO ERP TRAINING PARTNER?</font></h3>
+                    <p style="text-align: center;" class="lead">For organizations, an ideal approach to deal with the protections is to prepare the workforce with the new ERP and make them agreeable in the new condition with Odoo training.</p>
+                    <p style="text-align: center;" class="lead">To make everything work for your business, our passionate developers and consultants give the fundamental Odoo training to the workforce. We comprehend the necessity of the clients and furthermore knows the socioeconomic for which the preparation material is based on.</p>
+                    <p style="text-align: center;" class="lead">As an organization or association, it is important to understand the distinctive parts of the Odoo training process.</p><br></br>
+                </div>
+            </section>
+
+            <section class="s_tabs pt48 pb48 o_colored_level tabs-design-5" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: none;">
+               <div class="container">
+                 <div class="s_tabs_main">
+                   <div class="s_tabs_nav mb-3 nav-justified">
+                     <ul class="nav nav-pills" role="tablist">
+                       <li class="nav-item shadow-lg">
+                         <a class="nav-link active" id="nav4_tabs_content_1_tab" data-bs-toggle="tab" href="#nav4_tabs_content_1" role="tab" aria-controls="nav4_tabs_content_1" aria-selected="true">
+                           <div class="mb-2 me-2">
+                           </div>PRACTICAL TRAINING
+                         </a>
+                       </li>
+                       <li class="nav-item shadow-lg">
+                         <a class="nav-link" id="nav4_tabs_content_2_tab" data-bs-toggle="tab" href="#nav4_tabs_content_2" role="tab" aria-controls="nav4_tabs_content_2" aria-selected="false">
+                           <div class="mb-2 me-2">
+                           </div>TECHNICAL TRAINING
+                         </a>
+                       </li>
+                       <li class="nav-item shadow-lg">
+                         <a class="nav-link" id="nav4_tabs_content_3_tab" data-bs-toggle="tab" href="#nav4_tabs_content_3" role="tab" aria-controls="nav4_tabs_content_3" aria-selected="false">
+                           <div class="mb-2 me-2">
+                           </div>ORGANISATION TRAINING
+                         </a>
+                       </li>
+                       <li class="nav-item shadow-lg">
+                         <a class="nav-link" id="nav4_tabs_content_4_tab" data-bs-toggle="tab" href="#nav4_tabs_content_4" role="tab" aria-controls="nav4_tabs_content_4" aria-selected="false">
+                           <div class="mb-2 me-2">
+                           </div>END USER TRAINING
+                         </a>
+                       </li>
+                       <li class="nav-item shadow-lg">
+                         <a class="nav-link" id="nav4_tabs_content_5_tab" data-bs-toggle="tab" href="#nav4_tabs_content_5" role="tab" aria-controls="nav4_tabs_content_5" aria-selected="false">
+                           <div class="mb-2 me-2">
+                           </div>PROCESS DOCUMENTATION
+                         </a>
+                       </li>
+
+                     </ul>
+                   </div>
+                   <div class="s_tabs_content tab-content">
+
+                     <div class="tab-pane fade active show" id="nav4_tabs_content_1" role="tabpanel" aria-labelledby="nav4_tabs_content_1_tab">
+                       <div class="oe_structure oe_empty">
+                         <section class="s_text_block" style="background-image: none;">
+                          <div class="container s_allow_columns">
+                                <div class="row align-items-center justify-content-lg-between">
+                                    <div class=" col-lg-8 pb16 pt16">
+                                        <p class="mb-2 lead">Odoo Practical Training instructs the group of people on how Odoo stage functions. The training is principally focused on promoting representatives who need to understand the usefulness to work proficiently with the framework.</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </section>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade" id="nav4_tabs_content_2" role="tabpanel" aria-labelledby="nav4_tabs_content_2_tab">
+                       <div class="oe_structure oe_empty">
+                         <section class="s_text_block" style="background-image: none;">
+                                  <div class="container s_allow_columns">
+                                        <div class="row align-items-center justify-content-lg-between">
+                                            <div class=" col-lg-8 pb16 pt16">
+                                                <p class="mb-2 lead">Odoo Technical Training incorporates showing further developed clients or the organization's tech group on the best way to work with specialized issues successfully. They comprehend the inward workings of the Odoo stage and henceforth can rapidly enhance the framework in a long run.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                         </section>
+                       </div>
+                     </div>
+                     <div class="tab-pane fade" id="nav4_tabs_content_3" role="tabpanel" aria-labelledby="nav4_tabs_content_3_tab">
+                       <div class="oe_structure oe_empty">
+                         <section class="s_text_block" style="background-image: none;">
+                           <div class="container s_allow_columns">
+                                <div class="row align-items-center justify-content-lg-between">
+                                    <div class=" col-lg-8 pb16 pt16">
+                                        <p class="mb-2 lead">Heads need to deal with the database, keep a tab on an alternate procedure and do different obligations identified with the prosperity of the framework. With organization training, the overseer can feel positive about his/her capacities and work beneficially underweight circumstances.</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </section>
+                       </div>
+                     </div>
+
+                     <div class="tab-pane fade" id="nav4_tabs_content_4" role="tabpanel" aria-labelledby="nav4_tabs_content_4_tab">
+                       <div class="oe_structure oe_empty">
+                         <section class="s_text_block" style="background-image: none;">
+                           <div class="container s_allow_columns">
+                                <div class="row align-items-center justify-content-lg-between">
+                                    <div class=" col-lg-8 pb16 pt16">
+                                        <p class="mb-2 lead">End clients are profitable, and we ensure that they will have the capacity to utilize the framework with the assistance of the End client training.</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </section>
+                       </div>
+                     </div>
+
+                     <div class="tab-pane fade" id="nav4_tabs_content_5" role="tabpanel" aria-labelledby="nav4_tabs_content_5_tab">
+                       <div class="oe_structure oe_empty">
+                         <section class="s_text_block" style="background-image: none;">
+                           <div class="container s_allow_columns">
+                                <div class="row align-items-center justify-content-lg-between">
+                                    <div class=" col-lg-8 pb16 pt16">
+                                        <p class="mb-2 lead">Documentation is important for the association. It stores each and every insight about the Odoo ERP framework and subsequently we prepare the workers to process documentation successfully and accurately.</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </section>
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+               </div>
+            </section>
+
+            <section class="s_faq_collapse pb32">
+                <h4 class="main_heading bi_title bi_line pt24 pb24 text-center">
+                    FAQ's
+                </h4>
+                <div class="container">
+                    <div id="myCollapse" class="accordion" role="tablist">
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="true" class="card-header text-black lead" data-bs-target="#myCollapseTab949089_1">What kinds of Training is Theonik offering?</a>
+                            <div class="collapse show" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab949089_1">
+                                <div class="card-body">
+                                    <p class="card-text">Theonik offers a comprehensive range of training options tailored to your needs. We provide end-user training to familiarise your team with using Odoo effectively. Additionally, we offer administrator training for those managing the system. Our training covers various modules and functionalities, ensuring you get the most out of your Odoo implementation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab949089_2">Browseinfo Provides Video tutorials for Odoo Training?</a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab949089_2">
+                                <div class="card-body">
+                                    <p class="card-text">Yes, Theonik offers video tutorials for Odoo training. These tutorials provide a visual and step-by-step guide to help you understand and learn various aspects of using Odoo effectively.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-white" data-name="Item">
+                            <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header text-black lead" data-bs-target="#myCollapseTab949089_3">Can Odoo training courses be delivered on-site? </a>
+                            <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab949089_3">
+                                <div class="card-body">
+                                    <p class="card-text">While we primarily focus on remote training, we can certainly explore the possibility of on-site training depending on the geographical location and logistics involved. Our remote training is designed to be effective and convenient, allowing us to deliver high-quality training regardless of your location.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+    </template>
+    <template id="about_us" name="About Us">
+        <t t-call="website.layout">
+            <section class="s_carousel_wrapper oe_snippet_body" style="background:#000000;">
+				<div class="s_carousel s_carousel_default carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active oe_img_bg o_bg_img_center pt32 pb32" data-name="Slide" style="min-height: 147.188px;">
+                <div class="container oe_unremovable">
+                    <div class="row content align-items-center justify-content-center">
+                        <div class="carousel-content col-lg-8">
+                            <div class="text-center">
+                                <h1 class="display-4 mb-3 fw-bold" style="color:#ffffff;">Who We Are</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+					</div>
+				</div>
+			</section>
+
+            <section class="pt24 pb24 as-about-snippet-05">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between about-us-content">
+						<div class="col-lg-12 align-items-center">
+							<h3 class="mb-4 text-center">WE DO WHAT WE ARE BEST AT DOING</h3>
+						</div>
+                        <ul class="col-lg-12 pt24 pb24" style="text-align:justify;">
+                            <li class="mb-4">Theonik is one of the fastest and growing OdooPartner companies in Noida and India. </li>
+							<li class="mb-4">Theonik is a business application consultancy which has operated since 2024. As a reputed Odoo Partner, we integrate the the world’s best Open-ERP solutions that limelight your organization in the respective industries.</li>
+							<li class="mb-4">The technical and business expertise of our Business Solutions team provides qualitative, global and personal support.</li>
+							<li class="mb-4">Our services are mainly focusing on software development, IT consulting and providing offshore outsourcing solutions to enterprises in India.</li>
+							<li class="mb-4">We work closely in collaboration with clients to ensure that every project communicates its unique identity.</li>
+							<li class="mb-4">We're not focused on "giving advice" but on creating solutions that make people's life convenient and easy.</li>
+							<li class="mb-4">We are a team of IT enthusiasts who have channelized their knowledge and expertise towards one single goal of offering thorough customer satisfaction.
+									Our team believes in offering advanced, high quality and affordable IT solutions to support the business of our clients. We try to cater to different needs by offering customised IT solutions. And so, what could be a better customized business solution than Odoo. </li>
+                            <li class="mb-4">We have experts with immense knowledge about the Odoo Apps who can provide end to end services right from its implementation to upgrading the already implemented Odoo module to the latest version.
+							We are an esteemed IT company offering advanced, high quality and affordable IT Business Solutions.
+							We have been working mainly on Odoo Development, ERP Solutions, Web Development, Mobile Apps, Web Designing and Digital marketing day in and day out. You can vouch on our years of experience and team of dedicated experts to enhance your business performance. </li>
+							<li class="mb-4">Setting up the leading Open Source ERP software could need expertise and that is exactly what we are here for. Being upgraded to Odoo Gold Partner, we now understand the complexities of migrating from a conventional model to an Odoo module, and so our experts in Odoo implementation are here to help.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="as-snippet-title-02 text-center">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 ">
+							<h3 class="m-0">WHY CHOOSE THEONIK?</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+
+            <section class="s_tabs pt48 pb48 o_colored_level tabs-design-5" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: none;">
+                           <div class="container">
+                             <div class="s_tabs_main">
+                               <div class="s_tabs_nav mb-3 nav-justified">
+                                 <ul class="nav nav-pills" role="tablist">
+                                   <li class="nav-item shadow-lg">
+                                     <a class="nav-link active" id="nav4_tabs_content_1_tab" data-bs-toggle="tab" href="#nav4_tabs_content_1" role="tab" aria-controls="nav4_tabs_content_1" aria-selected="true">
+                                       <div class="mb-2 me-2">
+                                       </div><h4>What do we believe?</h4>
+                                     </a>
+                                   </li>
+								   <li class="nav-item shadow-lg">
+                                     <a class="nav-link" id="nav4_tabs_content_2_tab" data-bs-toggle="tab" href="#nav4_tabs_content_2" role="tab" aria-controls="nav4_tabs_content_2" aria-selected="false">
+                                       <div class="mb-2 me-2">
+                                       </div><h4>Where do we stand?</h4>
+                                     </a>
+                                   </li>
+                                   <li class="nav-item shadow-lg">
+                                     <a class="nav-link" id="nav4_tabs_content_3_tab" data-bs-toggle="tab" href="#nav4_tabs_content_3" role="tab" aria-controls="nav4_tabs_content_3" aria-selected="false">
+                                       <div class="mb-2 me-2">
+                                       </div><h4>What do we offer?</h4>
+                                     </a>
+                                   </li>
+                                   <li class="nav-item shadow-lg">
+                                     <a class="nav-link" id="nav4_tabs_content_4_tab" data-bs-toggle="tab" href="#nav4_tabs_content_4" role="tab" aria-controls="nav4_tabs_content_4" aria-selected="false">
+                                       <div class="mb-2 me-2">
+                                       </div><h4>What we have done?</h4>
+                                     </a>
+                                   </li>
+
+                                 </ul>
+                               </div>
+                               <div class="s_tabs_content tab-content">
+
+                                 <div class="tab-pane fade active show" id="nav4_tabs_content_1" role="tabpanel" aria-labelledby="nav4_tabs_content_1_tab">
+                                   <div class="oe_structure oe_empty">
+                                     <section class="s_text_block" style="background-image: none;">
+                                              <div class="container s_allow_columns">
+                                                    <div class="row align-items-center justify-content-lg-between">
+                                                        <ul class="col-lg-12 pt24 pb24" style="text-align:justify;">
+															<li class="mb-4">Conducting business with integrity, trust, and ethics.</li>
+															<li class="mb-4">Maintain customer retention rate with long-term business relationships and strong bonding with our customers (till now it's more than 90 %)Innovations, Improvements and take corrective actions to improve our products and our services maximize the performance of our employees, our products and our services.</li>
+														</ul>
+                                                    </div>
+                                                </div>
+                                     </section>
+                                   </div>
+                                 </div>
+                                 <div class="tab-pane fade" id="nav4_tabs_content_2" role="tabpanel" aria-labelledby="nav4_tabs_content_2_tab">
+                                   <div class="oe_structure oe_empty">
+                                     <section class="s_text_block" style="background-image: none;">
+                                              <div class="container s_allow_columns">
+                                                    <div class="row align-items-center justify-content-lg-between">
+                                                        <ul class="col-lg-12 pb24" style="text-align:justify;">
+															<li class="mb-4">We serve services in India.</li>
+															<li class="mb-4">Our strengths are our employees, high-performance work quality, friendly work environment, differentiation strategy with innovation and technology.</li>
+														</ul>
+                                                    </div>
+                                                </div>
+                                     </section>
+                                   </div>
+                                 </div>
+                                 <div class="tab-pane fade" id="nav4_tabs_content_3" role="tabpanel" aria-labelledby="nav4_tabs_content_3_tab">
+                                   <div class="oe_structure oe_empty">
+                                     <section class="s_text_block" style="background-image: none;">
+                                               <div class="container s_allow_columns">
+                                                    <div class="row align-items-center justify-content-lg-between">
+                                                        <ul class="col-lg-12 pb24" style="text-align:justify;">
+															<li class="mb-4">ERP implementation</li>
+															<li class="mb-4">CMS development</li>
+															<li class="mb-4">Business application development</li>
+															<li class="mb-4">E-Commerce development</li>
+															<li class="mb-4">HMS development</li>
+															<li class="mb-4">Engineering solutions</li>
+														</ul>
+                                                    </div>
+                                                </div>
+                                     </section>
+                                   </div>
+                                 </div>
+								<div class="tab-pane fade" id="nav4_tabs_content_4" role="tabpanel" aria-labelledby="nav4_tabs_content_4_tab">
+                                   <div class="oe_structure oe_empty">
+                                     <section class="s_text_block" style="background-image: none;">
+                                               <div class="container s_allow_columns">
+                                                    <div class="row align-items-center justify-content-lg-between">
+                                                        <ul class="col-lg-12 pb24" style="text-align:justify;">
+															<p class="mb-4">We have done lots of out of the box implementation with Odoo on the different industry as follow :</p>
+															<li class="mb-4">Construction Management Company.</li>
+															<li class="mb-4">Tiles/Stone Fitting(fabrication) Company.</li>
+															<li class="mb-4">Choke coil manufacturing Company.</li>
+															<li class="mb-4">Tour and travels industry.</li>
+															<li class="mb-4">Support/Helpdesk management system(service Industry).</li>
+															<li class="mb-4">Rental management.</li>
+															<li class="mb-4">Machine repair industry.</li>
+															<li class="mb-4">Hotel management.</li>
+															<li class="mb-4">Retail Industry including POS.</li>
+														</ul>
+                                                    </div>
+                                                </div>
+                                     </section>
+                                   </div>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                        </section>
+        </t>
+    </template>
+    <template id="demo_request" name="Demo Request">
+        <t t-call="website.layout">
+            <div id="wrap">
+                <div class="oe_structure" style="background-image: url('//browseinfopull-1f1ff.kxcdn.com/bi_website/static/src/img/banner for Demo Request.jpg');background-repeat: no-repeat;background-size: cover;">
+                    <div class="container pt64" id="create_demo_request_form">
+                       <section class="s_comparisons as-contactus-snippet-01 o_colored_level pb80" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip450221" data-name="Comparisons">
+                            <div class="container">
+                                <div class="col-lg-8 col-11 m-auto">
+                                    <div class="row justify-content-between">
+                                        <div class="col-lg-12 o_colored_level">
+                                            <div class="card shadow-large border-radius-12 light-border p-4 p-lg-5 h-100">
+                                                <section class="s_website_form pt16 pb0">
+                                                    <div class="container">
+                                                        <h1 class="text-center"> Demo Request</h1>
+                                                        <form id="contactus_form" action="/website/demo-request/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-model_name="demo.request" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-pre-fill="true">
+                                                            <div class="s_website_form_rows row s_col_no_bgcolor">
+                                                                <div class="form-group s_website_form_field col-12 s_website_form_dnone" data-name="Field">
+                                                                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                                        <label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px">
+                                                                            <span class="s_website_form_label_content"></span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-12 mt-3" data-type="char" data-name="module_name">
+                                                                    <div class="bi_advance_search">
+                                                                        <div class="col-xs-8 col-xs-offset-2">
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control search_input" name="module_name" required="1" id="module_name" placeholder="App Name / Module Technical Name" autocomplete="autocomplete"/>
+                                                                                <div class="global_search_dropdown_menu dropdown-menu show w-100 p-0" style="display: none;"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+
+
+                                                                <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6 mt-3" data-type="char" data-name="demo_skype_id">
+                                                                    <select placeholder="Odoo Platform" id="odoo_platform" name="odoo_platform" class="form-select">
+                                                                        <option class="platform" label="Odoo PlatForm"></option>
+
+                                                                    </select>
+                                                                </div>
+
+                                                                <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6 mt-3" data-type="char" data-name="demo_skype_id">
+                                                                    <select placeholder="Version" id="version" name="version" class="form-select" required="1">
+                                                                        <option value="17.0">
+                                                                            17.0
+                                                                        </option><option value="16">
+                                                                            16
+                                                                        </option><option value="16.0">
+                                                                            16.0
+                                                                        </option><option value="15.0">
+                                                                            15.0
+                                                                        </option><option value="14.0">
+                                                                            14.0
+                                                                        </option><option value="13.0">
+                                                                            13.0
+                                                                        </option><option value="12.0">
+                                                                            12.0
+                                                                        </option><option value="11.0">
+                                                                            11.0
+                                                                        </option><option value="10.0">
+                                                                            10.0
+                                                                        </option><option value="9.0">
+                                                                            9.0
+                                                                        </option><option value="8.0">
+                                                                            8.0
+                                                                        </option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6 mt-3" data-type="char" data-name="demo_partner_name">
+                                                                        <input type="text" class="form-control s_website_form_input" name="user_name" required="1" placeholder="Your Full Name" id="user_name"/>
+                                                                </div>
+                                                                <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6 mt-3" data-type="char" data-name="demo_email_id">
+                                                                    <input type="text" class="form-control s_website_form_input" name="email_id" required="1" placeholder="E-mail Address" id="email_id"/>
+                                                                </div>
+                                                                <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6 mt-3" data-type="char" data-name="demo_skype_id">
+                                                                    <input type="text" class="form-control s_website_form_input" name="skype_id" placeholder="Skype ID" id="skype_id"/>
+                                                                </div>
+                                                                <div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required col-lg-6 mt-3" data-type="char" data-name="demo_hangout_id">
+                                                                    <input type="number" class="form-control s_website_form_input" required="1" name="number" placeholder="Whatsapp Number" id="number"/>
+                                                                </div>
+
+                                                                <div class="text-center mt-3">
+                                                                    <span id="s_website_form_result"></span>
+                                                                </div>
+
+                                                                    <div class="w-100 form-group col-2 mx-auto s_website_form_submit text-right s_website_form_no_submit_label pb0 mt-4 text-center" data-name="Submit Button" data-original-title="" title="" aria-describedby="tooltip790862">
+                                                                        <button type="submit" class="btn btn-primary" style="height:35px;"  id="submitBtn" value="Submit">Submit</button>
+                                                                    </div>
+
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+
+</odoo>

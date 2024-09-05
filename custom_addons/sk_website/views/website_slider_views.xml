@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <!--        =========slider view================-->
+        <!--    Code for slider menu  -->
+
+    <record id="website_slider_form_view" model="ir.ui.view">
+        <field name="name">website.slider.form</field>
+        <field name="model">website.slider</field>
+        <field name="arch" type="xml">
+            <form string="Website Slider">
+                <group col="2">
+                    <field name="name"/>
+                    <field name="summary"/>
+                    <field name="active"/>
+                </group>
+                <group col="2">
+                    <field name="slider_image" widget="image"/>
+                    <field name="partner_logo" widget="image"/>
+                    <field name="slider_video"/>
+                </group>
+            </form>
+        </field>
+    </record>
+    <record id="website_slider_tree_view" model="ir.ui.view">
+        <field name="name">website.slider.tree</field>
+        <field name="model">website.slider</field>
+        <field name="arch" type="xml">
+            <tree string="Website Slider">
+                <field name="name"/>
+                <field name="summary"/>
+                <field name="active"/>
+                <field name="slider_image"/>
+                <field name="slider_video"/>
+            </tree>
+        </field>
+    </record>
+    <record id="website_slider_action" model="ir.actions.act_window">
+        <field name="name">Website Slider</field>
+        <field name="res_model">website.slider</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="view_id" ref="website_slider_tree_view"/>
+        <field name="target">current</field>
+    </record>
+    <menuitem name="Slider"
+        id="menu_website_slider"
+        action="website_slider_action"
+        parent="website.menu_website_global_configuration"
+        sequence="46"
+        />
+
+<!--    Code for slider menu ends here  -->
+<!--        =========slider view end================-->
+<!--    ============website service view start=======-->
+      <record id="website_services_form_view" model="ir.ui.view">
+        <field name="name">website.services.form</field>
+        <field name="model">website.services</field>
+        <field name="arch" type="xml">
+            <form string="Website Services">
+                <group col="2">
+                    <field name="name"/>
+                    <field name="url"/>
+                   <field name="service_logo" widget="image"/>
+                    <field name="active"/>
+                </group>
+            </form>
+        </field>
+    </record>
+    <record id="website_services_tree_view" model="ir.ui.view">
+        <field name="name">website.services.tree</field>
+        <field name="model">website.services</field>
+        <field name="arch" type="xml">
+            <tree string="Website Slider">
+                <field name="name"/>
+                <field name="url"/>
+                <field name="service_logo"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+    <record id="website_services_action" model="ir.actions.act_window">
+        <field name="name">Website Services</field>
+        <field name="res_model">website.services</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="view_id" ref="website_services_tree_view"/>
+        <field name="target">current</field>
+    </record>
+    <menuitem name="Services"
+        id="menu_website_services"
+        action="website_services_action"
+        parent="website.menu_website_global_configuration"
+        sequence="47"
+        />
+
+    <!--    ============website service view start=======-->
+      <record id="website_demo_form_view" model="ir.ui.view">
+        <field name="name">demo.request.form</field>
+        <field name="model">demo.request</field>
+        <field name="arch" type="xml">
+            <form string="Website Demo Request">
+                <group col="2">
+                    <field name="name"/>
+                    <field name="email"/>
+                   <field name="app_name"/>
+                    <field name="odoo_platform"/>
+                    <field name="version"/>
+                    <field name="skype_id"/>
+                    <field name="whatsapp_number"/>
+                </group>
+            </form>
+        </field>
+    </record>
+    <record id="website_demo_tree_view" model="ir.ui.view">
+        <field name="name">demo.request.tree</field>
+        <field name="model">demo.request</field>
+        <field name="arch" type="xml">
+            <tree string="Website Demo Request">
+                 <field name="name"/>
+                    <field name="email"/>
+                    <field name="whatsapp_number"/>
+            </tree>
+        </field>
+    </record>
+    <record id="website_demo_action" model="ir.actions.act_window">
+        <field name="name">Website Demo Request</field>
+        <field name="res_model">demo.request</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="view_id" ref="website_demo_tree_view"/>
+        <field name="target">current</field>
+    </record>
+    <menuitem name="Demo Request"
+        id="menu_website_demo"
+        action="website_demo_action"
+        parent="website.menu_website_global_configuration"
+        sequence="48"
+        />
+
+
+<!--    ============website service view end=====-->
+</odoo>

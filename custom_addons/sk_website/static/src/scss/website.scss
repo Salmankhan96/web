@@ -1,0 +1,16 @@
+
+#wrapwrap {
+    overflow-x: hidden;
+    }
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    background-color:blue;
+    color:white;
+    border-radius:8px;
+    }
+
+header .navbar-brand.logo img{object-fit: contain; display: block; width: auto; height: 4.5rem;}
+@media (max-width: 767.98px){header .navbar-brand.logo img{max-height: 4.5rem;}}
+
+.o_header_affixed.o_header_is_scrolled .navbar-brand img {
+  height: 4.5rem;
+}

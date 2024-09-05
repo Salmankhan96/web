@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tech_tree_view" model="ir.ui.view">
+        <field name="name">Tech</field>
+        <field name="model">sk.tech</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence"/>
+                <field name="name"/>
+                <field name="dob"/>
+                <field name="partner"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="tech_form_view" model="ir.ui.view">
+        <field name="name">Tech</field>
+        <field name="model">sk.tech</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                     <field name="name"/>
+                </group>
+               <group>
+                   <field name="dob"/>
+                <field name="partner"/>
+               </group>
+
+            </form>
+        </field>
+    </record>
+
+
+    <record id="action_tech_view" model="ir.actions.act_window">
+        <field name="name">Tech</field>
+        <field name="res_model">sk.tech</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
