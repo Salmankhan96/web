@@ -163,7 +163,7 @@
                     </div>
                 </section>
             <br></br>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" style="background-color:rebeccapurple;">
                     <section class="s_comparisons as-about-snippet-01 o_colored_level pb32" data-name="Comparisons">
                     <div class="container">
                         <div class="row">
